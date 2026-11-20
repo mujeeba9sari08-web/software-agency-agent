@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "software-agency-agent",
+  "owner": {
+    "name": "mujeeba9sari08-web"
+  },
+  "metadata": {
+    "description": "A universal software development workflow for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "software-agency-agent",
+      "source": "./",
+      "description": "A practical workflow for understanding, planning, implementing, validating, and reporting software changes.",
+      "version": "1.0.0",
+      "category": "development",
+      "strict": true
+    }
+  ]
+}
