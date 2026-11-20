@@ -1,20 +1,16 @@
 # software-agency-agent
+
 A universal AI agent instruction framework for professional software development — from research and planning to coding, testing, debugging and deployment.
 
-## Claude Code marketplace
+## Claude Code skill
 
-Add this repository as a marketplace in Claude Code:
+This repository provides a Claude Code skill in `skills/software-agency-agent/`. Install it from a Claude Code session with:
 
 ```text
 /plugin marketplace add mujeeba9sari08-web/software-agency-agent
-```
-
-Then install the plugin:
-
-```text
 /plugin install software-agency-agent@software-agency-agent
 ```
 
-The marketplace contains a `software-agency-agent` plugin with a `/software-agency-agent:workflow` command. It guides Claude through understanding the request, inspecting the existing project, planning, implementing, validating, and reporting results.
+After installation, invoke `/software-agency-agent:software-agency-agent` or let Claude Code select it for a matching software task.
 
-To validate the marketplace locally, run `claude plugin validate .` from the repository root.
+The repository also keeps a Claude Code plugin command at `/software-agency-agent:workflow`.
